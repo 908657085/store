@@ -1,2 +1,2 @@
-# svn-git-test
-sv迁移git测试库
+# store
+文件仓库
