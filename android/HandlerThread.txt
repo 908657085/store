@@ -1,0 +1,9 @@
+1.创建方式
+	HandlerThread handlerThread = new HandlerThread("TAG");
+        handlerThread.start();
+	Handler handler = new Handler(handlerThread.getLooper);
+2.HandlerThread 中looper启动是在HandlerThread 的 run方法中
+	Looper.prepare
+
+3.退出
+	handlerThread.quit() 调用 looper.quit()
